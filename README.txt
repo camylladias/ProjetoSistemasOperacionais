@@ -37,3 +37,5 @@ Pacotes utilizados:
 	Matplotlib que plota graficamente as informações referentes aos processos e seus respectivos tempos de execução.
 
 Obrigatoriedades: É mandatório colocar um arquivo no formato txt que contenha no MÍNIMO os pids dos processos, a duração total do processo e o instante de chegada de cada pid.
+
+	
