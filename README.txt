@@ -15,7 +15,7 @@ Criar um ambiente virtual dentro da pasta raíz do projeto a ser executado.
 	-Linux: raiz do projeto>python3 -m venv venv
 
 Ativar o ambiente virtual.
-	-Windows: raizdoprojeto>venv/Scripts/activate
+	-Windows: raizdoprojeto>venv\Scripts\activate
 	-Linux: raiz do projeto>venv/cd bin/activate OU raiz do projeto>source venv/bin/activate
 
 Instalar os pacotes que estão dentro do requirements.txt, com o ambiente virtual habilitado:
@@ -25,11 +25,14 @@ Instalar os pacotes que estão dentro do requirements.txt, com o ambiente virtua
 Com a virtualenv ativa e as dependências do projeto baixadas você pode executar os seguintes comandos para rodar esta app:
 	-Windows:raizdoprojeto>codigo>python escalonador.py
 	-Linux:raizdoprojeto>codigo>python3 escalonador.py
+	
+	Digite o valor do quantum: 4
+	Acompanhar gráficos durante a execução? True/Falsetrue ---> digite true sem espaço
 
-Para para a execução do programa basta digitar Ctrl+C
+Parar a execução do programa: Ctrl+C
 
 Para sair da virtualenv:
-	-Windows: raizdoprojeto>cd venv/cd Scripts/deactivate
+	-Windows: raizdoprojeto>cd venv\Scripts\deactivate
 	-Linux: raiz do projeto>d venv/cd bin/deactivate
 
 Pacotes utilizados:
